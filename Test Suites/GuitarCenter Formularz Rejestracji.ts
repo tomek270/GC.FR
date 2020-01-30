@@ -65,6 +65,12 @@
       <testCaseId>Test Cases/GC.FR.5.3</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>8b766977-0959-4936-b417-a8ed456bb6e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/GC.FR.5.4</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>68974fa0-a93d-4123-b382-1df2f023cb2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

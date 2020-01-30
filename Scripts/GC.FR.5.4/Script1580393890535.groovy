@@ -54,7 +54,7 @@ selenium.type('id=firstname', 'Marek')
 selenium.type('id=lastname', 'Nowak')
 
 'Email'
-selenium.type('id=email_address', 'test.pl')
+selenium.type('id=email_address', 'mareknowak@gmail.com')
 
 'Telefon'
 selenium.type('id=telephone', '123852951')

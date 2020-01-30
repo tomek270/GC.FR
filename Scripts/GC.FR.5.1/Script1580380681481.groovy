@@ -70,7 +70,7 @@ selenium.click('id=regulamin')
 
 selenium.click('xpath=(//input[@value=\'\'])[12]')
 
-WebUI.verifyElementPresent(findTestObject('Email ma niewłaściwy format'), 5)
+WebUI.verifyElementPresent(findTestObject('Problem z polem Email'), 5)
 
 WebUI.closeBrowser()
 

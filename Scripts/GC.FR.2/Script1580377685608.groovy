@@ -63,7 +63,7 @@ WebUI.verifyElementPresent(findTestObject('Problem z polem Imię'), 5)
 
 WebUI.verifyElementPresent(findTestObject('Problem z polem Nazwisko'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Email ma niewłaściwy format'), 5)
+WebUI.verifyElementPresent(findTestObject('Problem z polem Email'), 5)
 
 WebUI.verifyElementPresent(findTestObject('Problem z polem Telefon'), 5)
 

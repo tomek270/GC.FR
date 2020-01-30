@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Email ma niewłaściwy format</name>
+   <name>Problem z polem Email</name>
    <tag></tag>
    <elementGuidId>78294eb8-efd8-46f3-b5cf-bfbbff3e475b</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
