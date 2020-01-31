@@ -31,7 +31,7 @@ import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-int RN = ((Math.random() * 10000000) as int)
+
 
 'Otwieranie przeglądarki'
 WebUI.openBrowser('https://www.google.com/')

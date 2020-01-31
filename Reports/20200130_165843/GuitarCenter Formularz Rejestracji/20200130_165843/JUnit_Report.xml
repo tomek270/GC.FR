@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GuitarCenter Formularz Rejestracji" time="236.157" tests="18" failures="4" errors="0">
+   <testsuite name="GuitarCenter Formularz Rejestracji" tests="18" failures="4" errors="0" time="236.157" timestamp="2020-01-30 16:58:47" hostname="Tomek - 192.168.1.2" id="Test Suites/GuitarCenter Formularz Rejestracji">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843"/>
+         <property name="logFiles" value="C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580399981454.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580399981642.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400011324.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400011498.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400074533.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400074710.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400092802.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400092972.png"/>
+         <property name="hostName" value="Tomek - 192.168.1.2"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 72.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="f5cacc69-6628-4d0a-8b1e-a385996747e6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/GC.FR.1" time="13.076" classname="Test Cases/GC.FR.1" status="PASSED">
+         <system-out><![CDATA[2020-01-30 16:58:48 - [TEST_CASE][PASSED] - Test Cases/GC.FR.1: Test Cases/GC.FR.1
+
+2020-01-30 16:58:48 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 16:58:49 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:58:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 16:58:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-30 16:58:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:58:55 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 16:58:55 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 16:58:55 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 16:58:55 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 16:58:57 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 16:58:58 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 16:58:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Konto zostało założone"), 10): Object 'Object Repository/Konto zostało założone' is present
+
+2020-01-30 16:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/Konto zostało założone' is present
+
+2020-01-30 16:59:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 16:59:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.2" time="11.698" classname="Test Cases/GC.FR.2" status="PASSED">
+         <system-out><![CDATA[2020-01-30 16:59:01 - [TEST_CASE][PASSED] - Test Cases/GC.FR.2: Test Cases/GC.FR.2
+
+2020-01-30 16:59:01 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 16:59:01 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 16:59:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:06 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 16:59:06 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 16:59:06 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 16:59:06 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.type("id=firstname", ""): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.type("id=lastname", ""): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.type("id=email_address", ""): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.type("id=telephone", ""): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.type("id=password", ""): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", ""): null
+
+2020-01-30 16:59:09 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 16:59:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Imię"), 5): Object 'Object Repository/Problem z polem Imię' is present
+
+2020-01-30 16:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Imię' is present
+
+2020-01-30 16:59:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Nazwisko"), 5): Object 'Object Repository/Problem z polem Nazwisko' is present
+
+2020-01-30 16:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Nazwisko' is present
+
+2020-01-30 16:59:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Email"), 5): Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 16:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 16:59:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Telefon"), 5): Object 'Object Repository/Problem z polem Telefon' is present
+
+2020-01-30 16:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Telefon' is present
+
+2020-01-30 16:59:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Hasło"), 5): Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 16:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 16:59:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 16:59:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.3.1" time="11.009" classname="Test Cases/GC.FR.3.1" status="PASSED">
+         <system-out><![CDATA[2020-01-30 16:59:13 - [TEST_CASE][PASSED] - Test Cases/GC.FR.3.1: Test Cases/GC.FR.3.1
+
+2020-01-30 16:59:13 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 16:59:13 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 16:59:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 16:59:18 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 16:59:18 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 16:59:18 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 16:59:20 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "ma"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 16:59:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 16:59:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Imię"), 5): Object 'Object Repository/Problem z polem Imię' is present
+
+2020-01-30 16:59:22 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Imię' is present
+
+2020-01-30 16:59:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 16:59:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.3.2" time="17.681" classname="Test Cases/GC.FR.3.2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Imię' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-30 16:59:24 - [TEST_CASE][FAILED] - Test Cases/GC.FR.3.2: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Imię' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-30 16:59:24 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 16:59:24 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 16:59:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:29 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 16:59:29 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 16:59:29 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 16:59:29 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 16:59:31 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Ma123"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 16:59:32 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 16:59:33 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Problem z polem Imię"), 5): Unable to verify object 'Object Repository/Problem z polem Imię' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Imię' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-01-30 16:59:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-30 16:59:41 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-01-30 16:59:41 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-01-30 16:59:41 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580399981454.png]]
+
+2020-01-30 16:59:41 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Problem z polem Imię' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Imię' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580399981642.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-30 16:59:24 - [TEST_CASE][FAILED] - Test Cases/GC.FR.3.2: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Imię' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.4.1" time="12.375" classname="Test Cases/GC.FR.4.1" status="PASSED">
+         <system-out><![CDATA[2020-01-30 16:59:41 - [TEST_CASE][PASSED] - Test Cases/GC.FR.4.1: Test Cases/GC.FR.4.1
+
+2020-01-30 16:59:41 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 16:59:41 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-30 16:59:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 16:59:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 16:59:48 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 16:59:48 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 16:59:48 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 16:59:50 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "N"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 16:59:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 16:59:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Nazwisko"), 5): Object 'Object Repository/Problem z polem Nazwisko' is present
+
+2020-01-30 16:59:52 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Nazwisko' is present
+
+2020-01-30 16:59:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 16:59:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.4.2" time="17.479" classname="Test Cases/GC.FR.4.2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.4.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Nazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Nazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-30 16:59:54 - [TEST_CASE][FAILED] - Test Cases/GC.FR.4.2: Test Cases/GC.FR.4.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Nazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Nazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-30 16:59:54 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 16:59:54 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 16:59:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 16:59:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 16:59:59 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 16:59:59 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 16:59:59 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:00:01 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "N!@#"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:00:02 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:00:03 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Problem z polem Nazwisko"), 5): Unable to verify object 'Object Repository/Problem z polem Nazwisko' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Nazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Nazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-01-30 17:00:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-30 17:00:11 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-01-30 17:00:11 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-01-30 17:00:11 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Nazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Nazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400011324.png]]
+
+2020-01-30 17:00:11 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Problem z polem Nazwisko' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Nazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Nazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400011498.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-30 16:59:54 - [TEST_CASE][FAILED] - Test Cases/GC.FR.4.2: Test Cases/GC.FR.4.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Nazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Nazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.1" time="12.2" classname="Test Cases/GC.FR.5.1" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:00:11 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.1: Test Cases/GC.FR.5.1
+
+2020-01-30 17:00:11 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:00:11 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-30 17:00:12 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:00:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:00:18 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:00:18 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:00:18 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:00:20 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:00:20 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:00:21 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:00:21 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "testowyemail"): null
+
+2020-01-30 17:00:21 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:00:21 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:00:21 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:00:21 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:00:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:00:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Email"), 5): Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:22 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:00:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.2" time="11.0" classname="Test Cases/GC.FR.5.2" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:00:23 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.2: Test Cases/GC.FR.5.2
+
+2020-01-30 17:00:24 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:00:24 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:00:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:29 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:00:29 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:00:29 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:00:29 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:00:31 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:00:31 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:00:31 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:00:31 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "testowyemail@test"): null
+
+2020-01-30 17:00:31 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:00:31 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:00:32 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:00:32 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:00:32 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:00:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Email"), 5): Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:33 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:00:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.3" time="11.149" classname="Test Cases/GC.FR.5.3" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:00:34 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.3: Test Cases/GC.FR.5.3
+
+2020-01-30 17:00:35 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:00:35 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:00:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:00:40 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:00:40 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:00:40 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:00:42 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "test.pl"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:00:43 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:00:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Email"), 5): Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:44 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:00:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.4" time="11.157" classname="Test Cases/GC.FR.5.4" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:00:45 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.4: Test Cases/GC.FR.5.4
+
+2020-01-30 17:00:46 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:00:46 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:00:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:51 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:00:51 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:00:51 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:00:51 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:00:53 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:00:53 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:00:54 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:00:54 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak@gmail.com"): null
+
+2020-01-30 17:00:54 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:00:54 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:00:54 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:00:54 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:00:54 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:00:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Email"), 5): Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Email' is present
+
+2020-01-30 17:00:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:00:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.6.1" time="17.685" classname="Test Cases/GC.FR.6.1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.6.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-30 17:00:57 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.1: Test Cases/GC.FR.6.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-30 17:00:57 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:00:57 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:00:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:01:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:02 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:01:02 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:01:02 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:01:02 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:01:05 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:01:06 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:01:07 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Problem z polem Telefon"), 5): Unable to verify object 'Object Repository/Problem z polem Telefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-01-30 17:01:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-30 17:01:14 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-01-30 17:01:14 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-01-30 17:01:14 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400074533.png]]
+
+2020-01-30 17:01:14 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Problem z polem Telefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400074710.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-30 17:00:57 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.1: Test Cases/GC.FR.6.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.6.2" time="18.257" classname="Test Cases/GC.FR.6.2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.6.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-30 17:01:14 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.2: Test Cases/GC.FR.6.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-30 17:01:14 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:01:14 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-30 17:01:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:01:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:01:21 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:01:21 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:01:21 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:01:23 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:01:23 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:01:23 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:01:24 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:01:24 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123szesc1"): null
+
+2020-01-30 17:01:24 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:01:24 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:01:24 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:01:24 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:01:25 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Problem z polem Telefon"), 5): Unable to verify object 'Object Repository/Problem z polem Telefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-01-30 17:01:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-30 17:01:32 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-01-30 17:01:32 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-01-30 17:01:32 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400092802.png]]
+
+2020-01-30 17:01:33 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Problem z polem Telefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200130_165843\\GuitarCenter Formularz Rejestracji\\20200130_165843\\1580400092972.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-30 17:01:14 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.2: Test Cases/GC.FR.6.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Telefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Telefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.1" time="12.974" classname="Test Cases/GC.FR.7.1" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:01:33 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.1: Test Cases/GC.FR.7.1
+
+2020-01-30 17:01:33 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:01:33 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-30 17:01:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:01:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:01:40 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:01:40 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:01:40 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:01:42 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:01:42 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:01:43 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:01:43 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:01:43 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:01:43 - [TEST_STEP][PASSED] - selenium.type("id=password", "ma"): null
+
+2020-01-30 17:01:43 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "ma"): null
+
+2020-01-30 17:01:43 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:01:43 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:01:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Hasło"), 5): Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 17:01:44 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 17:01:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:01:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.2" time="11.286" classname="Test Cases/GC.FR.7.2" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:01:46 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.2: Test Cases/GC.FR.7.2
+
+2020-01-30 17:01:46 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:01:46 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:01:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:51 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:01:51 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:01:51 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:01:51 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:01:53 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.type("id=password", "Marek123(!)"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "Marek123(!)"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:01:54 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Konto zostało założone"), 5): Object 'Object Repository/Konto zostało założone' is present
+
+2020-01-30 17:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/Konto zostało założone' is present
+
+2020-01-30 17:01:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:01:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.3" time="11.212" classname="Test Cases/GC.FR.7.3" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:01:57 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.3: Test Cases/GC.FR.7.3
+
+2020-01-30 17:01:57 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:01:57 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:01:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:02:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:02:02 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:02:02 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:02:02 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:02:02 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", ""): null
+
+2020-01-30 17:02:05 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:02:06 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:02:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Hasło"), 5): Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 17:02:07 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 17:02:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:02:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.4" time="11.102" classname="Test Cases/GC.FR.7.4" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:02:08 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.4: Test Cases/GC.FR.7.4
+
+2020-01-30 17:02:08 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:02:08 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:02:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:02:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:02:14 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:02:14 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:02:14 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:02:14 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek"): null
+
+2020-01-30 17:02:16 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:02:17 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:02:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Problem z polem Hasło"), 5): Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 17:02:18 - [MESSAGE][PASSED] - Object 'Object Repository/Problem z polem Hasło' is present
+
+2020-01-30 17:02:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:02:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.8" time="10.668" classname="Test Cases/GC.FR.8" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:02:19 - [TEST_CASE][PASSED] - Test Cases/GC.FR.8: Test Cases/GC.FR.8
+
+2020-01-30 17:02:19 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:02:19 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:02:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:02:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:02:24 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:02:24 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:02:24 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:02:24 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:02:27 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:02:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Brak akceptacji regulaminu"), 5): Object 'Object Repository/Brak akceptacji regulaminu' is present
+
+2020-01-30 17:02:29 - [MESSAGE][PASSED] - Object 'Object Repository/Brak akceptacji regulaminu' is present
+
+2020-01-30 17:02:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:02:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.9" time="13.72" classname="Test Cases/GC.FR.9" status="PASSED">
+         <system-out><![CDATA[2020-01-30 17:02:30 - [TEST_CASE][PASSED] - Test Cases/GC.FR.9: Test Cases/GC.FR.9
+
+2020-01-30 17:02:30 - [TEST_STEP][PASSED] - RN = Math.random() * 10000000: null
+
+2020-01-30 17:02:30 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:02:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-30 17:02:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/'
+
+2020-01-30 17:02:35 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-01-30 17:02:35 - [TEST_STEP][PASSED] - baseUrl = "https://www.google.com/": null
+
+2020-01-30 17:02:35 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-01-30 17:02:35 - [TEST_STEP][PASSED] - selenium.open("https://guitarcenter.pl/catalog/logreg.php"): null
+
+2020-01-30 17:02:37 - [TEST_STEP][PASSED] - selenium.click("id=firstname"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.type("id=firstname", "Marek"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.type("id=lastname", "Nowak"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.type("id=email_address", "mareknowak+" + RN + "@gmail.com"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.type("id=telephone", "123852951"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.type("id=password", "marek123"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.type("id=password_confirmation", "marek123"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.click("id=regulamin"): null
+
+2020-01-30 17:02:38 - [TEST_STEP][PASSED] - selenium.click("id=newsletter"): null
+
+2020-01-30 17:02:39 - [TEST_STEP][PASSED] - selenium.click("id=directmarketing"): null
+
+2020-01-30 17:02:39 - [TEST_STEP][PASSED] - selenium.click("xpath=(//input[@value=''])[12]"): null
+
+2020-01-30 17:02:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Konto zostało założone"), 10): Object 'Object Repository/Konto zostało założone' is present
+
+2020-01-30 17:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/Konto zostało założone' is present
+
+2020-01-30 17:02:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-30 17:02:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-30 16:58:47 - [TEST_SUITE][FAILED] - GuitarCenter Formularz Rejestracji: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Imię' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-01-30 16:58:47 - [TEST_SUITE][FAILED] - GuitarCenter Formularz Rejestracji: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Problem z polem Imię' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$0.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580399923973.run(TempTestSuite1580399923973.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Problem z polem Imię' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
