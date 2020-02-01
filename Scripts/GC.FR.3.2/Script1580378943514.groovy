@@ -31,46 +31,26 @@ import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-int RN = ((Math.random() * 10000000) as int)
+WebUI.openBrowser('')
 
-'Otwieranie przeglądarki'
-WebUI.openBrowser('https://www.google.com/')
+WebUI.navigateToUrl('https://guitarcenter.pl/catalog/logreg.php')
 
-def driver = DriverFactory.getWebDriver()
+WebUI.setText(findTestObject('Pola/Imię'), 'Ma123')
 
-String baseUrl = 'https://www.google.com/'
+WebUI.setText(findTestObject('Pola/Nazwisko'), 'Nowak')
 
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+WebUI.setText(findTestObject('Pola/Email'), ('mareknowak+' + System.nanoTime()) + '@gmail.com')
 
-selenium.open('https://guitarcenter.pl/catalog/logreg.php')
+WebUI.setText(findTestObject('Pola/Telefon'), '123852951')
 
-'\r\n'
-selenium.click('id=firstname')
+WebUI.setText(findTestObject('Pola/Haslo'), 'marek123')
 
-'Imię\r\n'
-selenium.type('id=firstname', 'Ma123')
+WebUI.setText(findTestObject('Pola/PowtorzHaslo'), 'marek123')
 
-'Nazwisko'
-selenium.type('id=lastname', 'Nowak')
+WebUI.click(findTestObject('Pola/Regulamin'))
 
-'Email'
-selenium.type('id=email_address', 'mareknowak+' + System.nanoTime() + '@gmail.com')
+WebUI.click(findTestObject('Pola/ZalozKonto'))
 
-'Telefon'
-selenium.type('id=telephone', '123852951')
-
-'Hasło'
-selenium.type('id=password', 'marek123')
-
-'Powtórz hasło'
-selenium.type('id=password_confirmation', 'marek123')
-
-'Regulamin'
-selenium.click('id=regulamin')
-
-selenium.click('xpath=(//input[@value=\'\'])[12]')
-
-WebUI.verifyElementPresent(findTestObject('Problem z polem Imię'), 5)
+WebUI.verifyElementPresent(findTestObject('Alerty/ProblemImie'), GlobalVariable.CzasOczekiwania)
 
 WebUI.closeBrowser()
-

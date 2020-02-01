@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Problem z polem Email</name>
+   <name>Telefon</name>
    <tag></tag>
-   <elementGuidId>78294eb8-efd8-46f3-b5cf-bfbbff3e475b</elementGuidId>
+   <elementGuidId>a1073754-508b-4e56-8fb4-50fecf94429b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[3]/td/p</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;telephone&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

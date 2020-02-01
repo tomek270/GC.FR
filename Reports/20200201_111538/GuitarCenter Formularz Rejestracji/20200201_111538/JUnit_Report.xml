@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GuitarCenter Formularz Rejestracji" time="219.307" tests="18" failures="4" errors="0">
+   <testsuite name="GuitarCenter Formularz Rejestracji" tests="18" failures="4" errors="0" time="219.307" timestamp="2020-02-01 11:15:41" hostname="Tomek - 192.168.1.4" id="Test Suites/GuitarCenter Formularz Rejestracji">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538"/>
+         <property name="logFiles" value="C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552189878.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552190064.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552217601.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552217760.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552276458.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552276609.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552293663.png, C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552293832.png"/>
+         <property name="hostName" value="Tomek - 192.168.1.4"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 72.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="b05d129c-bc72-4d44-a3ef-51c7ccaa36b9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/GC.FR.1" time="11.773" classname="Test Cases/GC.FR.1" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:15:41 - [TEST_CASE][PASSED] - Test Cases/GC.FR.1: Test Cases/GC.FR.1
+
+2020-02-01 11:15:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:15:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:15:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-02-01 11:15:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:15:45 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:15:48 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:15:48 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:15:48 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:15:48 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:15:48 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:15:48 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8365424049758@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:15:49 - [MESSAGE][PASSED] - Text 'mareknowak+8365424049758@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:15:49 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:15:49 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:15:49 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:15:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/KontoZostaloZalozone"), CzasOczekiwania): Object 'Object Repository/Alerty/KontoZostaloZalozone' is present
+
+2020-02-01 11:15:51 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/KontoZostaloZalozone' is present
+
+2020-02-01 11:15:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:15:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.2" time="10.677" classname="Test Cases/GC.FR.2" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:15:53 - [TEST_CASE][PASSED] - Test Cases/GC.FR.2: Test Cases/GC.FR.2
+
+2020-02-01 11:15:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:15:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:15:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:15:56 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:15:58 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), ""): Text '' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:15:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:15:58 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), ""): Text '' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:15:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), ""): Text '' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:15:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), ""): Text '' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:15:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), ""): Text '' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:15:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), ""): Text '' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemImie"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemImie' is present
+
+2020-02-01 11:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemImie' is present
+
+2020-02-01 11:16:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemNazwisko"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemNazwisko' is present
+
+2020-02-01 11:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemNazwisko' is present
+
+2020-02-01 11:16:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemEmail"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:16:02 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:16:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemTelefon"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemTelefon' is present
+
+2020-02-01 11:16:02 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemTelefon' is present
+
+2020-02-01 11:16:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/BrakAkceptacjiRegulaminu"), CzasOczekiwania): Object 'Object Repository/Alerty/BrakAkceptacjiRegulaminu' is present
+
+2020-02-01 11:16:02 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/BrakAkceptacjiRegulaminu' is present
+
+2020-02-01 11:16:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:16:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.3.1" time="9.857" classname="Test Cases/GC.FR.3.1" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:16:03 - [TEST_CASE][PASSED] - Test Cases/GC.FR.3.1: Test Cases/GC.FR.3.1
+
+2020-02-01 11:16:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:16:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:16:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:16:06 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:08 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:08 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "ma"): Text 'ma' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:09 - [MESSAGE][PASSED] - Text 'ma' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:09 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8386053743465@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:09 - [MESSAGE][PASSED] - Text 'mareknowak+8386053743465@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:10 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:10 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:10 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:10 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:10 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemImie"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemImie' is present
+
+2020-02-01 11:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemImie' is present
+
+2020-02-01 11:16:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:16:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.3.2" time="16.535" classname="Test Cases/GC.FR.3.2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemImie' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-01 11:16:13 - [TEST_CASE][FAILED] - Test Cases/GC.FR.3.2: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemImie' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-01 11:16:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:16:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:16:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:16:16 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:18 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:18 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Ma123"): Text 'Ma123' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:19 - [MESSAGE][PASSED] - Text 'Ma123' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:19 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8396035006659@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:19 - [MESSAGE][PASSED] - Text 'mareknowak+8396035006659@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:19 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:20 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:20 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:20 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:22 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Alerty/ProblemImie"), CzasOczekiwania): Unable to verify object 'Object Repository/Alerty/ProblemImie' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemImie' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-02-01 11:16:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-01 11:16:29 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-01 11:16:29 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-02-01 11:16:30 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552189878.png]]
+
+2020-02-01 11:16:30 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Alerty/ProblemImie' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemImie' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552190064.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-01 11:16:13 - [TEST_CASE][FAILED] - Test Cases/GC.FR.3.2: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemImie' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.4.1" time="11.136" classname="Test Cases/GC.FR.4.1" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:16:30 - [TEST_CASE][PASSED] - Test Cases/GC.FR.4.1: Test Cases/GC.FR.4.1
+
+2020-02-01 11:16:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:16:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-01 11:16:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:16:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:16:34 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:36 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:36 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:36 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:36 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "N"): Text 'N' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:37 - [MESSAGE][PASSED] - Text 'N' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8413635842779@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:37 - [MESSAGE][PASSED] - Text 'mareknowak+8413635842779@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:37 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:37 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:38 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemNazwisko"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemNazwisko' is present
+
+2020-02-01 11:16:40 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemNazwisko' is present
+
+2020-02-01 11:16:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:16:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.4.2" time="16.561" classname="Test Cases/GC.FR.4.2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.4.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemNazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemNazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-01 11:16:41 - [TEST_CASE][FAILED] - Test Cases/GC.FR.4.2: Test Cases/GC.FR.4.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemNazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemNazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-01 11:16:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:16:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:16:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:16:44 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:46 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:16:46 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:47 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "N!@#"): Text 'N!@#' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:47 - [MESSAGE][PASSED] - Text 'N!@#' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8423915395710@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:47 - [MESSAGE][PASSED] - Text 'mareknowak+8423915395710@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:47 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:16:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:48 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:16:48 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:48 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:16:50 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Alerty/ProblemNazwisko"), CzasOczekiwania): Unable to verify object 'Object Repository/Alerty/ProblemNazwisko' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemNazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemNazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-02-01 11:16:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-01 11:16:57 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-01 11:16:57 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-02-01 11:16:57 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemNazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemNazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552217601.png]]
+
+2020-02-01 11:16:57 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Alerty/ProblemNazwisko' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemNazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemNazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552217760.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-01 11:16:41 - [TEST_CASE][FAILED] - Test Cases/GC.FR.4.2: Test Cases/GC.FR.4.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemNazwisko' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.4.2.run(GC.FR.4.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemNazwisko' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[2]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.1" time="11.064" classname="Test Cases/GC.FR.5.1" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:16:57 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.1: Test Cases/GC.FR.5.1
+
+2020-02-01 11:16:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:16:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-01 11:16:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:17:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:17:02 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:04 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:04 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:04 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:04 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "testowyemail"): Text 'testowyemail' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:05 - [MESSAGE][PASSED] - Text 'testowyemail' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:05 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:05 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:05 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:06 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemEmail"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:07 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:17:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.2" time="10.531" classname="Test Cases/GC.FR.5.2" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:17:08 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.2: Test Cases/GC.FR.5.2
+
+2020-02-01 11:17:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:17:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:17:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:17:12 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:14 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:14 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:15 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:15 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "testowyemail@test"): Text 'testowyemail@test' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:15 - [MESSAGE][PASSED] - Text 'testowyemail@test' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:15 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:16 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:16 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:16 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:16 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:17 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemEmail"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:17:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.3" time="10.258" classname="Test Cases/GC.FR.5.3" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:17:19 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.3: Test Cases/GC.FR.5.3
+
+2020-02-01 11:17:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:17:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:17:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:17:22 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:25 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:25 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:25 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "test.pl"): Text 'test.pl' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:25 - [MESSAGE][PASSED] - Text 'test.pl' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:26 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:26 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:26 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:27 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemEmail"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:28 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:17:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.5.4" time="10.779" classname="Test Cases/GC.FR.5.4" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:17:29 - [TEST_CASE][PASSED] - Test Cases/GC.FR.5.4: Test Cases/GC.FR.5.4
+
+2020-02-01 11:17:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:17:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:17:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:17:32 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:35 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:35 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:36 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:36 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:36 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:36 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak@gmail.com"): Text 'mareknowak@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:36 - [MESSAGE][PASSED] - Text 'mareknowak@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:36 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:37 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:37 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:37 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemEmail"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:39 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemEmail' is present
+
+2020-02-01 11:17:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:17:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.6.1" time="16.186" classname="Test Cases/GC.FR.6.1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.6.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-01 11:17:40 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.1: Test Cases/GC.FR.6.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-01 11:17:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:17:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:17:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:17:43 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:45 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:17:45 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:46 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:46 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8482852107541@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:46 - [MESSAGE][PASSED] - Text 'mareknowak+8482852107541@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123"): Text '123' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:46 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:47 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:47 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:17:48 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Alerty/ProblemTelefon"), CzasOczekiwania): Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-02-01 11:17:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-01 11:17:56 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-01 11:17:56 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-02-01 11:17:56 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552276458.png]]
+
+2020-02-01 11:17:56 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552276609.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-01 11:17:40 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.1: Test Cases/GC.FR.6.1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.1.run(GC.FR.6.1:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.6.2" time="17.22" classname="Test Cases/GC.FR.6.2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GC.FR.6.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-02-01 11:17:56 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.2: Test Cases/GC.FR.6.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-02-01 11:17:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:17:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-01 11:17:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:18:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:18:00 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:03 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:03 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:03 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8500177678723@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:03 - [MESSAGE][PASSED] - Text 'mareknowak+8500177678723@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123szesc1"): Text '123szesc1' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:04 - [MESSAGE][PASSED] - Text '123szesc1' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:04 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:04 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:04 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:04 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:06 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Alerty/ProblemTelefon"), CzasOczekiwania): Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-02-01 11:18:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-02-01 11:18:13 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2020-02-01 11:18:13 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2020-02-01 11:18:13 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552293663.png]]
+
+2020-02-01 11:18:13 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Tomek\\git\\GC.FR\\Reports\\20200201_111538\\GuitarCenter Formularz Rejestracji\\20200201_111538\\1580552293832.png]]]]></system-out>
+         <system-err><![CDATA[2020-02-01 11:17:56 - [TEST_CASE][FAILED] - Test Cases/GC.FR.6.2: Test Cases/GC.FR.6.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemTelefon' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.6.2.run(GC.FR.6.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemTelefon' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[4]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.1" time="11.084" classname="Test Cases/GC.FR.7.1" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:18:13 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.1: Test Cases/GC.FR.7.1
+
+2020-02-01 11:18:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:18:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-02-01 11:18:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:18:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:18:18 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:20 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:20 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:20 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:20 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8517549330542@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:21 - [MESSAGE][PASSED] - Text 'mareknowak+8517549330542@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:21 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "ma"): Text 'ma' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:21 - [MESSAGE][PASSED] - Text 'ma' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "ma"): Text 'ma' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:22 - [MESSAGE][PASSED] - Text 'ma' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemHaslo"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemHaslo' is present
+
+2020-02-01 11:18:23 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemHaslo' is present
+
+2020-02-01 11:18:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:18:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.2" time="10.526" classname="Test Cases/GC.FR.7.2" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:18:25 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.2: Test Cases/GC.FR.7.2
+
+2020-02-01 11:18:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:18:25 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:18:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:18:28 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:30 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:30 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:31 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:31 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8528002261477@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:31 - [MESSAGE][PASSED] - Text 'mareknowak+8528002261477@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:31 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:31 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "Marek123(!)"): Text 'Marek123(!)' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:32 - [MESSAGE][PASSED] - Text 'Marek123(!)' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:32 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "Marek123(!)"): Text 'Marek123(!)' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:32 - [MESSAGE][PASSED] - Text 'Marek123(!)' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/KontoZostaloZalozone"), CzasOczekiwania): Object 'Object Repository/Alerty/KontoZostaloZalozone' is present
+
+2020-02-01 11:18:34 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/KontoZostaloZalozone' is present
+
+2020-02-01 11:18:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:18:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.3" time="10.121" classname="Test Cases/GC.FR.7.3" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:18:35 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.3: Test Cases/GC.FR.7.3
+
+2020-02-01 11:18:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:18:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:18:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:18:38 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:40 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:40 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:41 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:41 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8537897099963@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:41 - [MESSAGE][PASSED] - Text 'mareknowak+8537897099963@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:41 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:41 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:42 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), ""): Text '' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemHaslo"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemHaslo' is present
+
+2020-02-01 11:18:44 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemHaslo' is present
+
+2020-02-01 11:18:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:18:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.7.4" time="10.038" classname="Test Cases/GC.FR.7.4" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:18:45 - [TEST_CASE][PASSED] - Test Cases/GC.FR.7.4: Test Cases/GC.FR.7.4
+
+2020-02-01 11:18:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:18:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:18:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:18:48 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:51 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:51 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:51 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8548488844234@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:52 - [MESSAGE][PASSED] - Text 'mareknowak+8548488844234@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:52 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:52 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek"): Text 'marek' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:52 - [MESSAGE][PASSED] - Text 'marek' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:18:52 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:18:53 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:18:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/ProblemHaslo"), CzasOczekiwania): Object 'Object Repository/Alerty/ProblemHaslo' is present
+
+2020-02-01 11:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/ProblemHaslo' is present
+
+2020-02-01 11:18:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:18:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.8" time="10.628" classname="Test Cases/GC.FR.8" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:18:55 - [TEST_CASE][PASSED] - Test Cases/GC.FR.8: Test Cases/GC.FR.8
+
+2020-02-01 11:18:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:18:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:18:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:18:58 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:19:01 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:19:01 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:19:01 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:19:02 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8558801813713@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:19:02 - [MESSAGE][PASSED] - Text 'mareknowak+8558801813713@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:19:02 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:19:03 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:19:03 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:19:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/BrakAkceptacjiRegulaminu"), CzasOczekiwania): Object 'Object Repository/Alerty/BrakAkceptacjiRegulaminu' is present
+
+2020-02-01 11:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/BrakAkceptacjiRegulaminu' is present
+
+2020-02-01 11:19:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:19:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GC.FR.9" time="13.902" classname="Test Cases/GC.FR.9" status="PASSED">
+         <system-out><![CDATA[2020-02-01 11:19:06 - [TEST_CASE][PASSED] - Test Cases/GC.FR.9: Test Cases/GC.FR.9
+
+2020-02-01 11:19:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-02-01 11:19:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-02-01 11:19:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-02-01 11:19:09 - [TEST_STEP][PASSED] - navigateToUrl("https://guitarcenter.pl/catalog/logreg.php"): Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:19:12 - [MESSAGE][PASSED] - Navigate to 'https://guitarcenter.pl/catalog/logreg.php' successfully
+
+2020-02-01 11:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Imię"), "Marek"): Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:19:12 - [MESSAGE][PASSED] - Text 'Marek' is set on object 'Object Repository/Pola/Imię'
+
+2020-02-01 11:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Nazwisko"), "Nowak"): Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:19:12 - [MESSAGE][PASSED] - Text 'Nowak' is set on object 'Object Repository/Pola/Nazwisko'
+
+2020-02-01 11:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Email"), "mareknowak+" + System.nanoTime() + "@gmail.com"): Text 'mareknowak+8569269186634@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:19:12 - [MESSAGE][PASSED] - Text 'mareknowak+8569269186634@gmail.com' is set on object 'Object Repository/Pola/Email'
+
+2020-02-01 11:19:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Telefon"), "123852951"): Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:19:13 - [MESSAGE][PASSED] - Text '123852951' is set on object 'Object Repository/Pola/Telefon'
+
+2020-02-01 11:19:13 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/Haslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:19:13 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/Haslo'
+
+2020-02-01 11:19:13 - [TEST_STEP][PASSED] - setText(findTestObject("Pola/PowtorzHaslo"), "marek123"): Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:19:13 - [MESSAGE][PASSED] - Text 'marek123' is set on object 'Object Repository/Pola/PowtorzHaslo'
+
+2020-02-01 11:19:13 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Regulamin")): Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Regulamin' is clicked on
+
+2020-02-01 11:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Newsletter")): Object: 'Object Repository/Pola/Newsletter' is clicked on
+
+2020-02-01 11:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Newsletter' is clicked on
+
+2020-02-01 11:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Pola/Marketing")): Object: 'Object Repository/Pola/Marketing' is clicked on
+
+2020-02-01 11:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/Marketing' is clicked on
+
+2020-02-01 11:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Pola/ZalozKonto")): Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pola/ZalozKonto' is clicked on
+
+2020-02-01 11:19:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Alerty/KontoZostaloZalozone"), CzasOczekiwania): Object 'Object Repository/Alerty/KontoZostaloZalozone' is present
+
+2020-02-01 11:19:19 - [MESSAGE][PASSED] - Object 'Object Repository/Alerty/KontoZostaloZalozone' is present
+
+2020-02-01 11:19:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-02-01 11:19:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-02-01 11:15:41 - [TEST_SUITE][FAILED] - GuitarCenter Formularz Rejestracji: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemImie' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-02-01 11:15:41 - [TEST_SUITE][FAILED] - GuitarCenter Formularz Rejestracji: Test Cases/GC.FR.3.2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Alerty/ProblemImie' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at GC.FR.3.2.run(GC.FR.3.2:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580552138060.run(TempTestSuite1580552138060.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alerty/ProblemImie' located by 'By.xpath: /html/body/center/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/form/table[1]/tbody/tr[1]/td/p' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

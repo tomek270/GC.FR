@@ -31,43 +31,24 @@ import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
+WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://guitarcenter.pl/catalog/logreg.php')
 
-'Otwieranie przeglądarki'
-WebUI.openBrowser('https://www.google.com/')
+WebUI.setText(findTestObject('Pola/Imię'), 'Marek')
 
-def driver = DriverFactory.getWebDriver()
+WebUI.setText(findTestObject('Pola/Nazwisko'), 'Nowak')
 
-String baseUrl = 'https://www.google.com/'
+WebUI.setText(findTestObject('Pola/Email'), 'mareknowak+' + System.nanoTime() + '@gmail.com')
 
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+WebUI.setText(findTestObject('Pola/Telefon'), '123852951')
 
-selenium.open('https://guitarcenter.pl/catalog/logreg.php')
+WebUI.setText(findTestObject('Pola/Haslo'), 'marek123')
 
-'\r\n'
-selenium.click('id=firstname')
+WebUI.setText(findTestObject('Pola/PowtorzHaslo'), 'marek123')
 
-'Imię\r\n'
-selenium.type('id=firstname', 'Marek')
+WebUI.click(findTestObject('Pola/ZalozKonto'))
 
-'Nazwisko'
-selenium.type('id=lastname', 'Nowak')
-
-'Email'
-selenium.type('id=email_address', 'mareknowak+' + System.nanoTime() + '@gmail.com')
-
-'Telefon'
-selenium.type('id=telephone', '123852951')
-
-'Hasło'
-selenium.type('id=password', 'marek123')
-
-'Powtórz hasło'
-selenium.type('id=password_confirmation', 'marek123')
-
-selenium.click('xpath=(//input[@value=\'\'])[12]')
-
-WebUI.verifyElementPresent(findTestObject('Brak akceptacji regulaminu'), 5)
+WebUI.verifyElementPresent(findTestObject('Alerty/BrakAkceptacjiRegulaminu'), GlobalVariable.CzasOczekiwania)
 
 WebUI.closeBrowser()
-

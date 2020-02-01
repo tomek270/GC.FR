@@ -33,44 +33,26 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 
 
-'Otwieranie przeglądarki'
-WebUI.openBrowser('https://www.google.com/')
+WebUI.openBrowser('')
 
-def driver = DriverFactory.getWebDriver()
+WebUI.navigateToUrl('https://guitarcenter.pl/catalog/logreg.php')
 
-String baseUrl = 'https://www.google.com/'
+WebUI.setText(findTestObject('Pola/Imię'), 'ma')
 
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+WebUI.setText(findTestObject('Pola/Nazwisko'), 'Nowak')
 
-selenium.open('https://guitarcenter.pl/catalog/logreg.php')
+WebUI.setText(findTestObject('Pola/Email'), ('mareknowak+' + System.nanoTime()) + '@gmail.com')
 
-'\r\n'
-selenium.click('id=firstname')
+WebUI.setText(findTestObject('Pola/Telefon'), '123852951')
 
-'Imię\r\n'
-selenium.type('id=firstname', 'ma')
+WebUI.setText(findTestObject('Pola/Haslo'), 'marek123')
 
-'Nazwisko'
-selenium.type('id=lastname', 'Nowak')
+WebUI.setText(findTestObject('Pola/PowtorzHaslo'), 'marek123')
 
-'Email'
-selenium.type('id=email_address', 'mareknowak+' + System.nanoTime() + '@gmail.com')
+WebUI.click(findTestObject('Pola/Regulamin'))
 
-'Telefon'
-selenium.type('id=telephone', '123852951')
+WebUI.click(findTestObject('Pola/ZalozKonto'))
 
-'Hasło'
-selenium.type('id=password', 'marek123')
-
-'Powtórz hasło'
-selenium.type('id=password_confirmation', 'marek123')
-
-'Regulamin'
-selenium.click('id=regulamin')
-
-selenium.click('xpath=(//input[@value=\'\'])[12]')
-
-WebUI.verifyElementPresent(findTestObject('Problem z polem Imię'), 5)
+WebUI.verifyElementPresent(findTestObject('Alerty/ProblemImie'), GlobalVariable.CzasOczekiwania)
 
 WebUI.closeBrowser()
-

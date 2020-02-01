@@ -31,43 +31,32 @@ import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-int RN = ((Math.random() * 10000000) as int)
+WebUI.openBrowser('')
 
-WebUI.openBrowser('https://www.google.com/')
+WebUI.navigateToUrl('https://guitarcenter.pl/catalog/logreg.php')
 
-def driver = DriverFactory.getWebDriver()
+WebUI.setText(findTestObject('Pola/Imię'), '')
 
-String baseUrl = 'https://www.google.com/'
+WebUI.setText(findTestObject('Pola/Nazwisko'), '')
 
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+WebUI.setText(findTestObject('Pola/Email'), '')
 
-selenium.open('https://guitarcenter.pl/catalog/logreg.php')
+WebUI.setText(findTestObject('Pola/Telefon'), '')
 
-selenium.click('id=firstname')
+WebUI.setText(findTestObject('Pola/Haslo'), '')
 
-selenium.type('id=firstname', '')
+WebUI.setText(findTestObject('Pola/PowtorzHaslo'), '')
 
-selenium.type('id=lastname', '')
+WebUI.click(findTestObject('Pola/ZalozKonto'))
 
-selenium.type('id=email_address', '')
+WebUI.verifyElementPresent(findTestObject('Alerty/ProblemImie'), GlobalVariable.CzasOczekiwania)
 
-selenium.type('id=telephone', '')
+WebUI.verifyElementPresent(findTestObject('Alerty/ProblemNazwisko'), GlobalVariable.CzasOczekiwania)
 
-selenium.type('id=password', '')
+WebUI.verifyElementPresent(findTestObject('Alerty/ProblemEmail'), GlobalVariable.CzasOczekiwania)
 
-selenium.type('id=password_confirmation', '')
+WebUI.verifyElementPresent(findTestObject('Alerty/ProblemTelefon'), GlobalVariable.CzasOczekiwania)
 
-selenium.click('xpath=(//input[@value=\'\'])[12]')
-
-WebUI.verifyElementPresent(findTestObject('Problem z polem Imię'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Problem z polem Nazwisko'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Problem z polem Email'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Problem z polem Telefon'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Problem z polem Hasło'), 5)
+WebUI.verifyElementPresent(findTestObject('Alerty/BrakAkceptacjiRegulaminu'), GlobalVariable.CzasOczekiwania)
 
 WebUI.closeBrowser()
-
